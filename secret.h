@@ -1,6 +1,12 @@
 // imgBB web
-const char* imgbb_api_key = "8fdeaee7effd456043179917795afd72";
+// sign in ImgBB then go to setting nad find out your api key
+const char* imgbb_api_key = "your api key from ImgBB";
 
 // Signal app
-String signal_api_key = "033103";   
-String header =  "https://api.callmebot.com/signal/send.php?phone=64f99fa5-0acd-4b28-a34b-abe8a87fb3b0&apikey=" + signal_api_key;
+/* 
+  Add contact +34 603 21 25 97
+  send message "I allow callmebot to send me messages"
+  callmebot will send to you api ken and the link you need
+*/
+String signal_api_key = "your api key from callmebot";   
+String header =  "your url from callmebot" + signal_api_key;
